@@ -2,7 +2,39 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="284e8359-faab-45c7-ba91-29674f1c4bd1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/hello1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hello2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hello3.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hello4.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hello5.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/helloss.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/memory/DirectBufferMemoryDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/memory/MemoryDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/stream/CPUTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/stream/ChannelTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/stream/NoBlockingNioTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/stream/PipeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/stream/ServerSocketChannelTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/stream/StreamDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/stream/buffer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lambdaDemo/com/company/ILove.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lambdaDemo/com/company/ILove.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lambdaDemo/com/company/Ilike.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lambdaDemo/com/company/Ilike.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lambdaDemo/com/company/Like.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lambdaDemo/com/company/Like.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lambdaDemo/com/company/Love.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lambdaDemo/com/company/Love.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lambdaDemo/com/company/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lambdaDemo/com/company/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lambdaDemo/com/generics/Animal.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lambdaDemo/com/generics/Animal.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lambdaDemo/com/generics/Cat.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lambdaDemo/com/generics/Cat.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lambdaDemo/com/generics/Dog.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lambdaDemo/com/generics/Dog.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lambdaDemo/com/generics/GenericImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lambdaDemo/com/generics/GenericImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lambdaDemo/com/generics/GenericImplWithType.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lambdaDemo/com/generics/GenericImplWithType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lambdaDemo/com/generics/GenericInterface.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lambdaDemo/com/generics/GenericInterface.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lambdaDemo/com/generics/GenericMethod.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lambdaDemo/com/generics/GenericMethod.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lambdaDemo/com/generics/GenericNoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lambdaDemo/com/generics/GenericNoImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lambdaDemo/com/generics/GenericType.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lambdaDemo/com/generics/GenericType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lambdaDemo/com/generics/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lambdaDemo/com/generics/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lambdaDemo/com/sortDemo/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lambdaDemo/com/sortDemo/Main.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,29 +53,42 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1aMbxTO0BCIUzHPTJQNG7CrLWfl" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/com/generics" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.sortDemo" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/com/generics" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.Main (2)">
-    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.sortDemo.Main" />
+  <component name="RunManager" selected="Application.PipeTest">
+    <configuration name="CPUTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.stream.CPUTest" />
       <module name="lambdaDemo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.sortDemo.*" />
+          <option name="PATTERN" value="com.stream.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -51,12 +96,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.generics.Main" />
+    <configuration name="ChannelTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.stream.ChannelTest" />
       <module name="lambdaDemo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.generics.*" />
+          <option name="PATTERN" value="com.stream.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -64,21 +109,59 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.Main" />
+    <configuration name="NoBlockingNioTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.stream.NoBlockingNioTest" />
       <module name="lambdaDemo" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.stream.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PipeTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.stream.PipeTest" />
+      <module name="lambdaDemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.stream.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServerSocketChannelTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.stream.ServerSocketChannelTest" />
+      <module name="lambdaDemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.stream.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.ChannelTest" />
+      <item itemvalue="Application.ServerSocketChannelTest" />
+      <item itemvalue="Application.CPUTest" />
+      <item itemvalue="Application.NoBlockingNioTest" />
+      <item itemvalue="Application.PipeTest" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main (2)" />
-        <item itemvalue="Application.Main (1)" />
-        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.PipeTest" />
+        <item itemvalue="Application.NoBlockingNioTest" />
+        <item itemvalue="Application.CPUTest" />
+        <item itemvalue="Application.ServerSocketChannelTest" />
+        <item itemvalue="Application.ChannelTest" />
       </list>
     </recent_temporary>
   </component>
@@ -95,33 +178,59 @@
       <workItem from="1586548661891" duration="1453000" />
       <workItem from="1586672441511" duration="207000" />
       <workItem from="1590888055458" duration="383000" />
+      <workItem from="1590969520685" duration="94000" />
+      <workItem from="1591517637720" duration="1683000" />
+      <workItem from="1591570358385" duration="12058000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
   <component name="WindowStateProjectService">
-    <state width="1638" height="260" key="GridCell.Tab.0.bottom" timestamp="1590909569549">
+    <state x="440" y="171" key="#Project_Structure" timestamp="1591588428719">
       <screen x="0" y="23" width="1680" height="969" />
     </state>
-    <state width="1638" height="260" key="GridCell.Tab.0.bottom/0.23.1680.969@0.23.1680.969" timestamp="1590909569549" />
-    <state width="1638" height="260" key="GridCell.Tab.0.center" timestamp="1590909569548">
+    <state x="440" y="171" key="#Project_Structure/0.23.1680.969@0.23.1680.969" timestamp="1591588428719" />
+    <state x="304" y="168" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1591588495972">
       <screen x="0" y="23" width="1680" height="969" />
     </state>
-    <state width="1638" height="260" key="GridCell.Tab.0.center/0.23.1680.969@0.23.1680.969" timestamp="1590909569548" />
-    <state width="1638" height="260" key="GridCell.Tab.0.left" timestamp="1590909569548">
+    <state x="304" y="168" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1680.969@0.23.1680.969" timestamp="1591588495972" />
+    <state width="1638" height="260" key="GridCell.Tab.0.bottom" timestamp="1591679909736">
       <screen x="0" y="23" width="1680" height="969" />
     </state>
-    <state width="1638" height="260" key="GridCell.Tab.0.left/0.23.1680.969@0.23.1680.969" timestamp="1590909569548" />
-    <state width="1638" height="260" key="GridCell.Tab.0.right" timestamp="1590909569549">
+    <state width="1638" height="260" key="GridCell.Tab.0.bottom/0.23.1680.966@0.23.1680.966" timestamp="1590969614658" />
+    <state width="1638" height="260" key="GridCell.Tab.0.bottom/0.23.1680.969@0.23.1680.969" timestamp="1591679909736" />
+    <state width="1638" height="260" key="GridCell.Tab.0.center" timestamp="1591679909735">
       <screen x="0" y="23" width="1680" height="969" />
     </state>
-    <state width="1638" height="260" key="GridCell.Tab.0.right/0.23.1680.969@0.23.1680.969" timestamp="1590909569549" />
-    <state x="519" y="340" key="com.intellij.ide.util.TipDialog" timestamp="1586548661300">
+    <state width="1638" height="260" key="GridCell.Tab.0.center/0.23.1680.966@0.23.1680.966" timestamp="1590969614657" />
+    <state width="1638" height="260" key="GridCell.Tab.0.center/0.23.1680.969@0.23.1680.969" timestamp="1591679909735" />
+    <state width="1638" height="260" key="GridCell.Tab.0.left" timestamp="1591679909735">
       <screen x="0" y="23" width="1680" height="969" />
     </state>
-    <state x="519" y="340" key="com.intellij.ide.util.TipDialog/0.23.1680.969@0.23.1680.969" timestamp="1586548661300" />
+    <state width="1638" height="260" key="GridCell.Tab.0.left/0.23.1680.966@0.23.1680.966" timestamp="1590969614657" />
+    <state width="1638" height="260" key="GridCell.Tab.0.left/0.23.1680.969@0.23.1680.969" timestamp="1591679909735" />
+    <state width="1638" height="260" key="GridCell.Tab.0.right" timestamp="1591679909736">
+      <screen x="0" y="23" width="1680" height="969" />
+    </state>
+    <state width="1638" height="260" key="GridCell.Tab.0.right/0.23.1680.966@0.23.1680.966" timestamp="1590969614657" />
+    <state width="1638" height="260" key="GridCell.Tab.0.right/0.23.1680.969@0.23.1680.969" timestamp="1591679909736" />
+    <state x="349" y="145" key="SettingsEditor" timestamp="1591596978141">
+      <screen x="0" y="23" width="1680" height="969" />
+    </state>
+    <state x="349" y="145" key="SettingsEditor/0.23.1680.969@0.23.1680.969" timestamp="1591596978141" />
+    <state x="519" y="340" key="com.intellij.ide.util.TipDialog" timestamp="1591572633272">
+      <screen x="0" y="23" width="1680" height="969" />
+    </state>
+    <state x="519" y="340" key="com.intellij.ide.util.TipDialog/0.23.1680.969@0.23.1680.969" timestamp="1591572633272" />
+    <state x="498" y="128" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1591653977455">
+      <screen x="0" y="23" width="1680" height="969" />
+    </state>
+    <state x="498" y="128" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.23.1680.969@0.23.1680.969" timestamp="1591653977455" />
     <state x="234" y="130" key="new project wizard" timestamp="1586552810312">
       <screen x="0" y="23" width="1680" height="969" />
     </state>
