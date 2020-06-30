@@ -103,123 +103,46 @@
    }
    ```
 
+# 2、Constructor Reference Method
 
-
-## 1.3、String类型转换
-
-### 1.31、String与基本数据类型、包装类之间的转换
-
-- String -->基本数据类型、包装类
-
-方法：调用包装类的静态方法：parseXxx(Str), Integer.parseInt, Boolean.ParseBoolean
-
-- 基本数据类型、包装类 -->String
-
-方法：调用String重载的valueOf（xxx）或 连接一个空字符串
+**2.1、构造器引用**
 
 ```java
-public void test(){
-    String str1 = "123";
-    //将字符串型“123”转换成 数值型
-    int num = Integer.parseInt(str1);
-    //将数值型123 转换成 字符串
-    String str2 = String.valueOf(num);
-    String str3 = num + "";//此时的str3 与str1 的地址值不同
+public static void test1(){
+    // 空参构造器
+    Supplier<Employee> supplier = Employee::new;
+    System.out.println(supplier.get());
+}
+
+public static void test2(){
+    // 一参构造器 Function R apply(T t);
+    Function<Integer,Employee> func = Employee::new;
+    System.out.println(func.apply(1010));
+}
+
+public static void test3(){
+    // 两参构造器 BiFunction R apply(T t, U u);
+    BiFunction<Integer, String, Employee> biFunc = Employee::new;
+    System.out.println(biFunc.apply(1010, "hao"));
 }
 ```
 
-### 1.32、String 与char[] 之间的转换
+**2.2、数组引用**
 
-- String --> char[]
-
-方法：调用String的toCharArray()
-
-- char[] -->String
-
-方法：调用String的构造器
-```java
-public void test(){
-    String str1 = "123abc";
-    //将"123abc"转换为char[]形式
-    char[] chars = str1.toCharArray();
-    for (int i = 0;i < chars.length;i++){
-        System.out.println(chars[i]);
-    }
-    //System.out.println(Arrays.toString(chars));//[1, 2, 3, a, b, c]
-    //将char[]转换成字符串
-    char[] chars1 = {'A', 'l', 'i', 'b', 'a', 'b', 'a'};
-    String s = new String(chars1);
-    System.out.println(s);
-}
-```
-
-### 1.33、String 与byte[]（字节数组） 之间的转换
-
-- String -->byte[]
-
-方法：调用String的getBytes()
-
-- byte[] -->String
-
-方法：调用String的构造器 
-
+将数组如String[]看作是一个特殊的类
 
 ```java
-public void test() throws UnsupportedEncodingException {     
-    String str1 = "123abc马云";
-    byte[] bytes = str1.getBytes();//使用默认的字符集 进行编码   （此处为utf -8 ）
-    System.out.println(Arrays.toString(bytes));//[49, 50, 51, 97, 98, 99, -23, -87, -84, -28, -70, -111]
-    byte[] gbks = str1.getBytes("gbk");
-    System.out.println(Arrays.toString(gbks));//[49, 50, 51, 97, 98, 99, -62, -19, -44, -58] 
-    String s = new String(bytes);//使用默认的字符集 进行解码
-    System.out.println(s);//123abc马云
+// Function 中的 R apply(T t);
+// 将数组如String[]看作是一个特殊的类
+public static void test4(){
+    Function<Integer, String[]> func1 = length -> new String[length];
+    String[] arr1 = func1.apply(10);
+    System.out.println(Arrays.toString(arr1));
 
-    String s1 = new String(gbks);
-    System.out.println(s1);//123abc���� 出现乱码
+    System.out.println("****************");
 
-    String s2 = new String(gbks, "gbk");
-    System.out.println(s2);//123abc马云
+    Function<Integer, String[]> func2 = String[]::new;
+    String[] arr2 = func2.apply(5);
+    System.out.println(Arrays.toString(arr2));
 }
 ```
-
-
-# 2、StringBuffer、StringBuilder
-
-**2.1、对比String、StringBuffer、StringBuilder**
-
-String(JDK1.0)：不可变字符序列
-StringBuffer(JDK1.0)：可变字符序列、效率低、线程安全
-StringBuilder(JDK 5.0)：可变字符序列、效率高、线程不安全
-
-三者低层都是使用char[]存储
-
-**2.2、StringBuffer类构造器**
-
-1. StringBuffer()：**初始容量为16**的字符串缓冲区
-2. **StringBuffer(int size)**：构造指定容量的字符串缓冲区 （尝使用）
-3. StringBuffer(String str)：将内容初始化为指定字符串内容
-
-**2.3、StringBuffer类的常用方法**
-
-StringBuffer append(xxx)：提供了很多的append()方法，用于进行字符串拼接
-StringBuffer delete(int start,int end)：删除指定位置的内容
-StringBuffer replace(int start, int end, String str)：把[start,end)位置替换为str
-StringBuffer insert(int offset, xxx)：在指定位置插入xxx
-StringBuffer reverse() ：把当前字符序列逆转
-public int indexOf(String str)
-public String substring(int start,int end)
-public int length()
-public char charAt(int n )
-public void setCharAt(int n ,char ch)
-
- **2.4、StringBuffer类扩容机制**
-
-当append或insert时，如果原来value数组长度不够，可扩容
-
-默认情况下，扩容为**原来的容量 \* 2 + 2**，同时将原来的数组元素复制到新的数组中。
-
-**2.5、三者效率对比**
-
-String(JDK1.0)：不可变字符序列 效率最低
-StringBuffer(JDK1.0)：可变字符序列、效率低、线程安全
-StringBuilder(JDK 5.0)：可变字符序列、效率高、线程不安全

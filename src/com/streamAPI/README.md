@@ -32,7 +32,7 @@
 
 Java8的Collection接口被拓展，提供了两个获取流的方法。
 
-假设一个Person类,
+假设一个Employee类,
 
 ```java
 default Stream<E> stream() {
@@ -49,6 +49,7 @@ default Stream<E> parallelStream() {
 public static void test1(){
     // 方式一：通过集合
     List<Employee> employees = EmployeeData.getEmployees();
+    employees.stream().forEach(System.out::println);
 }
 ```
 

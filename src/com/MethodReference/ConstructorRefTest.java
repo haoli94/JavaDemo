@@ -1,4 +1,4 @@
-package com.MethodReference;
+package com.methodReference;
 
 import com.streamAPI.Employee;
 import java.util.Arrays;

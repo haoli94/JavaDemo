@@ -1,4 +1,4 @@
-package com.Compare;
+package com.compare;
 
 public class Person {
     private String name;

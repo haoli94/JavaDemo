@@ -1,4 +1,4 @@
-package com.Compare;
+package com.compare;
 
 import java.util.Comparator;
 class PersonCompartor implements Comparator<Person>

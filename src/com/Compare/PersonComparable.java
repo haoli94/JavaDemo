@@ -1,4 +1,4 @@
-package com.Compare;
+package com.compare;
 
 public class PersonComparable implements Comparable<PersonComparable> {
     private String name;
